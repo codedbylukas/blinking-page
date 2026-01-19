@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f412;
+    animation: blink 225ms infinite;
+}
+
+@keyframes blink {
+    0% {
+        background-color: #f4f4f412;
+    }
+    1% {
+        background-color: yellow;
+    }
+    2% {
+        background-color: white;
+    }
+    10% {
+        background-color: blue;
+    }
+    20% {
+        background-color: green;
+    }
+    30% {
+        background-color: red;
+    }
+    40% {
+        background-color: purple;
+    }
+    50% {
+        background-color: #08c4d9b9;
+    }
+    60% {
+        background-color: orange;
+    }
+    70% {
+        background-color: pink;
+    }
+    80% {
+        background-color: black;
+    }
+    90% {
+        background-color: white;
+    }
+    100% {
+        background-color: yellow;
+    }
+}
