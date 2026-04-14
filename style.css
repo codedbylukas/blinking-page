@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f412;
-    animation: blink 225ms infinite;
+    animation: blink 2ms infinite;
 }
 
 @keyframes blink {
